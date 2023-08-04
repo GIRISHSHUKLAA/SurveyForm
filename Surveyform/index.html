@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body style="background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);">
+    <form action="">
+        <h1>Survey Form: </h1>
+        <fieldset>
+            <legend style="text-align: center;">Farwell Party Survey</legend>
+            <label for="Name">Customer Name:</label>
+            <input type="text" id="Name" placeholder="Enter Your Name">
+
+            <br>
+            <br>
+
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" placeholder="Enter Your Email">
+
+            <br>
+            <br>
+
+            <label for="Age">Age:</label>
+            <input type="number" id="Age" placeholder="Enter Your Age" max="80">
+
+            <br>
+            <br>
+
+            <label for="Describe">Which option Best describe You?:</label>
+            <select id="Describe">
+                <option value="--Select form the menu--">--Select form the menu--</option>
+                <option value="Passout">Passout</option>
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Workers">Workers</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="attend"> Will You Attend a Party? </label>
+            <p> <input type="radio" id="attend" name="attend" value="YES"> YES </p>
+            <p> <input type="radio" id="attend" name="attend" value="NO"> NO</p>
+
+            <br>
+            <br>
+
+            <label for="checkbox">What did you like about the program?</label>
+            <p><input type="checkbox" name="check" id="checkbox"> Training</p>
+            <p><input type="checkbox" name="check" id="checkbox"> The Learning Sessions from Industry Experts</p>
+            <p><input type="checkbox" name="check" id="checkbox"> Community Meetups</p>
+            <p><input type="checkbox" name="check" id="checkbox"> Brown Bag Sessions</p>
+            <p><input type="checkbox" name="check" id="checkbox"> Switching to Hybrid Mode</p>
+            <p><input type="checkbox" name="check" id="checkbox"> Food, Office etc.</p>
+
+            <label for="feedback">Any comments or suggestions:</label>
+            <textarea name="" id="feedback" cols="30" rows="10"></textarea>
+
+            <br>
+            <br>
+
+            <button>Reset</button>
+            <button>Submit</button>
+
+    </form>
+    </fieldset>
+</body>
+
+</html>
